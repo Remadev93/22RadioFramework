@@ -1,0 +1,10 @@
+framework module RadioFrameworkiOS {
+  umbrella header "RadioFrameworkiOS.h"
+
+  export *
+  module * { export * }
+}
+
+module RadioFrameworkiOS.Swift {
+    header "RadioFrameworkiOS-Swift.h"
+}
